@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Example</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="nav" id="nav">
+      <div class="nav-toggle" onclick="nav()">&#9776;</div>
+      <ul>
+        <li class="chipta" onclick="openSubMenu(1)">Chipta sotib olish</li>
+        <li class="kiyim" onclick="openSubMenu(2)">Kiyim korish</li>
+      </ul>
+    </div>
+    
+    <div class="Ticket">
+      <div class="Ticket-buy">
+        <div class="body-buy">
+          <form>
+            <h1>Chipta sotip olish</h1>
+            <div>
+              <input placeholder="Nechanchi qator" type="number" required />
+              <input placeholder="Nechansi stol" type="number" required />
+              <input placeholder="Chipta soni" type="number" required />
+              <input placeholder="F.I.SH" type="text" />
+              <input placeholder="To'lov turi" type="text" required />
+              <button type="submit">Chipta olish</button>
+            </div>
+          </form>
+          <h2>5% keshbekni qolga kiritish uchun chiptalarni online harid qiling</h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
