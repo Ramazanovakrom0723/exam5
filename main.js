@@ -4,7 +4,6 @@ function nav() {
   var nav = document.getElementById("nav");
   nav.classList.toggle("active");
 }
-
 async function fetchData(url) {
   try {
     const response = await fetch(url);
@@ -33,6 +32,6 @@ form.addEventListener("submit", function (event) {
     Chipta soni: ${values["Chipta soni"]}
     F.I.SH: ${values["F.I.SH"]}
     To'lov turi: ${values["To'lov turi"]}
-    Chipta narxi: 156$
+    Chipta narxi: 100$
   `);
 });
